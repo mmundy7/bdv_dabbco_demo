@@ -107,7 +107,7 @@ with tab1:
   A model will use the training dataset and will calculate how to best map examples of input data to specific class labels. 
   As such, the training dataset must be sufficiently representative of the problem.
 
-  You can use the toolbars to the left to "input your bid", and see if it is predicted to win an award with a confidence level. You can also click through the 
+  You can use the toolbar to the left to "input your bid", and see if it is predicted to win the award with a confidence level. You can also click through the 
   tabs to examine the data deeper. The third tab displays the model findings and what bid inputs are most important to win or lose an award. 
 
   """)
@@ -167,7 +167,7 @@ with tab3:
 
 st.sidebar.image('Transparent-PNG.png', width=200)
 st.sidebar.title("Input your bid")
-st.sidebar.write("Use these filters and select 'Analyze' to display New York construction data based on your selection. Leave blank and select 'Analyze' to view all data points.")
+st.sidebar.write("Enter a bid by filling out the below form and select 'Predict Your Bid' to see if your bid is predicted to win the award with an associated confidence percentage.")
 
 # Keep only alphanumeric values, strip extra space, keep it lowerspace
 def process_descriptions(txt):
