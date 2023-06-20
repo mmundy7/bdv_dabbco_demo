@@ -60,7 +60,7 @@ st.markdown('''
 
 
 # Load model, training data, enconded training data, prediction data and cache it
-@st.cache
+@st.cache_data
 def fetch_encoded_data():
   df = load("encoded_training_df.joblib")
   return df
